@@ -3,15 +3,10 @@
 
 <head>
     <title><%= title %></title>
-    <!-- Mobile Specific Meta -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Favicon-->
     <link rel="shortcut icon" href="img/fav.png">
-    <!-- Meta Description -->
     <meta name="description" content="">
-    <!-- Meta Keyword -->
     <meta name="keywords" content="">
-    <!-- meta character set -->
     <meta charset="UTF-8">
 
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,500,600" rel="stylesheet">
@@ -33,8 +28,6 @@
         <div class="banner-area">
             <div class="container">
                 <div class="row height justify-content-center align-items-center">
-                    <!-- <img src="/img/header.png"> -->
-
                     <div class="col-lg-4">
                         <div class="banner-content">
                             <h1>Online <br>Shopping</h1>
@@ -52,15 +45,12 @@
         </div>
     </div>
     <div class="main-wrapper">
-
-        <!-- Start Feature Area -->
         <section class="featured-area">
 
             <div class="container">
                 <section id="main-content">
                     <section class="wrapper"><br>
                         <div class="row">
-                            <!-- page start-->
                             <table class="table">
                                 <thead>
                                     <tr>
@@ -96,12 +86,7 @@
     </section>
     </div>
     </section>
-    <!-- End Feature Area -->
 
-
-
-
-    <!-- Start footer Area -->
     <footer class="footer-area relative" style="background: url(/img/f-bg.jpg);">
 
         <div class="overlay" style="background: rgba(	2, 215, 131);"></div>
@@ -114,13 +99,11 @@
             </div>
         </div>
     </footer>
-    <!-- End footer Area -->
 
     </div>
     <script>
         $(function () {
             $("input").on("input.highlight", function () {
-                // Determine specified search term
                 var searchTerm = $(this).val();
                 
                 $("#context").unmark().mark(searchTerm);

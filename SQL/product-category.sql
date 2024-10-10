@@ -40,9 +40,7 @@ INSERT INTO `category` (`idc`, `name_c`) VALUES
 (2, 'Mobile'),
 (3, 'Computer');
 
--- --------------------------------------------------------
 
---
 -- Table structure for table `product`
 --
 
@@ -109,3 +107,4 @@ COMMIT;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+

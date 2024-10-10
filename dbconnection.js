@@ -7,8 +7,7 @@ const db = mysql.createConnection ({
     password: 'Coding@786',
     database: 'product-category' 
   });
-  
-  // connect to database
+
   db.connect((err) => { 
     if (err) {  
         throw err; 
