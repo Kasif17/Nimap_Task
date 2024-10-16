@@ -25,6 +25,7 @@ app.use(express.static(path.join(__dirname, 'public', 'dashboard','lib')));
 app.use(express.static(publicDirectory)); 
 
 
+
 app.use("/category",categoryRoutes); 
 app.use("/product",productRoutes);  
 
